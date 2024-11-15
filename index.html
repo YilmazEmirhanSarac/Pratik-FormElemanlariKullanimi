@@ -8,29 +8,40 @@
 <body>
     <fieldset>
         <legend>Personal Information</legend>
+        <!-- Name and surname -->
         <div>
             <label for="name">Name:</label>
             <input type="text" id="name">
+        </div>    
+        <div>
             <label for="surname">Surname:</label>
             <input type="text" id="surname">
         </div>
+        
+        <!-- E-mail -->
         <div>
             <label for="email">E-mail:</label>
             <input type="email" id="email">
         </div>
+
+        <!-- Password -->
         <div>
             <label for="password">Password:</label>
             <input type="password" id="password"> 
         </div>
+        
+        <!-- Gender -->
         <div>
             <label for="gender">Gender:</label>
             <input type="radio" name="gender" value="male"> Man
             <input type="radio" name="gender" value="female"> Female
         </div>
+
+        <!-- Favorite Fruit -->
         <div>
-            <label for="fruit">Fruit:</label>
+            <label for="fruit">choose your favorite fruit:</label>
             <select id="fruit">
-                <option value="">select</option>
+                <option value="">choose</option>
                 <option value="apple">apple</option>
                 <option value="pear">pear</option>
                 <option value="cherry">cherry</option>
@@ -38,10 +49,14 @@
                 <option value="banana">banana</option>
             </select>
         </div>
+
+        <!-- Message -->
         <div>
             <label for="message">User message:</label>
             <textarea id="message" rows="5" cols="45"></textarea>
         </div>
+        
+        <!-- Submit Button -->
         <div>
             <button type="submit">Send</button>
         </div>
